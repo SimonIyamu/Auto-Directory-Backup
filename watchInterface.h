@@ -1,0 +1,12 @@
+void add_watch_rec(char*);
+void handle_event(struct inotify_event*, Tree*, Tree*, inode**, inode**);
+void on_attrib(struct inotify_event*, Tree*, Tree*);
+void on_close_write(struct inotify_event*, Tree*, Tree*, inode**, inode**);
+void on_create(struct inotify_event*, Tree*, Tree*, inode**, inode**);
+void on_delete(struct inotify_event*, Tree*, Tree*, inode**, inode**);
+void on_delete_self(struct inotify_event*, Tree*, Tree*, inode**, inode**);
+void on_modify(struct inotify_event*, Tree*);
+void on_moved_from(char*, char*, char*, Tree*, Tree*, inode**, inode**);
+void on_moved_to(struct inotify_event*, char*, char*, Tree*, Tree*, inode**, inode**);
+char *remove_last_slash(char*);
+int fd;
