@@ -10,4 +10,4 @@ Execution: ./mirr source backup
 
 -----------------
 Contributors: Eugene Kladis, Simon Iyamu.  
-This project was one of our assignments in the Operating Systems course in 2018.
+This project was an assignments in the Operating Systems course in 2018.
