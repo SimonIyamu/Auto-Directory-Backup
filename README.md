@@ -5,9 +5,9 @@ During the initial synchronization, we create structures that reflect the hierar
 
 Compilation:  make
 
-Execution: ./mirr source backup
+Execution: ./mirr source backup  
 ,where source and backup is the name of the source and backup directory respectively.
 
 -----------------
-Contributors: Eugene Kladis, Simon Iyamu.
+Contributors: Eugene Kladis, Simon Iyamu.  
 This project was one of our assignments in the Operating Systems course in 2018.
