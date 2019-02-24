@@ -9,5 +9,5 @@ Execution: ./mirr source backup
 ,where source and backup is the name of the source and backup directory respectively.
 
 -----------------
-Contributors: Eugene Kladis, Simon Iyamu.  
+Collaborators: Eugene Kladis, Simon Iyamu.  
 This project was an assignments in the Operating Systems course in 2018.
