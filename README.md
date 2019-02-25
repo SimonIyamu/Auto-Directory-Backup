@@ -3,7 +3,7 @@ This application monitors dynamically a hierarchy of files and directories, and 
 
 During the initial synchronization, we create structures that reflect the hierarchy of names and i-nodes, as it is in the file management subsystem of the operating system. After the directories are synched, the watching begins. The program watches the events that happen on the source directory, using the inotify system call interface, and then does any neccessary actions on the backup directory in order to keep the directories synched.
 
-Compilation:  make
+Compilation: make
 
 Execution: ./mirr source backup  
 ,where source and backup is the name of the source and backup directory respectively.
